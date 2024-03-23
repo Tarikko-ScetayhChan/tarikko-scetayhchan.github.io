@@ -300,10 +300,10 @@ Enterprises and developers use Algolia&#39;s AI search infrastructure to underst
         <title>防止MacBook合上盖子后睡眠</title>
         <link rel="alternate" href="https://tarikko-scetayhchan.top/2024/02/16/%E9%98%B2%E6%AD%A2MacBook%E5%90%88%E4%B8%8A%E7%9B%96%E5%AD%90%E5%90%8E%E7%9D%A1%E7%9C%A0/"/>
         <content type="html">&lt;p&gt;对 Mac 禁用睡眠，合上 MacBook 的盖子时防止进入睡眠状态：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;% sudo pmset -a disablesleep 1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;% sudo pmset -a disablesleep 1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;启用睡眠：&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;% sudo pmset -a disablesleep 0&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;这适用于编译、下载等未进行结束的时候。!! 也适用于家长突袭检查 (雾)。 !!&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;% sudo pmset -a disablesleep 0&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;这适用于编译、下载等未进行结束的时候。!! 也适用于家长突袭检查 (雾)。！！&lt;/p&gt;
 </content>
         <category term="Apple" scheme="https://tarikko-scetayhchan.top/tags/Apple/" />
         <category term="苹果" scheme="https://tarikko-scetayhchan.top/tags/%E8%8B%B9%E6%9E%9C/" />
