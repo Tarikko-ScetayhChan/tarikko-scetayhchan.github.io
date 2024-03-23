@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Hexo</title>
-        <subtitle></subtitle>
+        <title>咲初花絆 ☆ Sakisome kizuhana</title>
+        <subtitle> © 2024 by 幸草_Tarikko-ScetayhChan is licensed under CC BY-NC-SA 4.0 </subtitle>
         <icon>https://tarikko-scetayhchan.top/images/favicon.ico</icon>
         <link>https://tarikko-scetayhchan.top</link>
         <author>
           <name>幸草_Tarikko-ScetayhChan</name>
         </author>
-        <description></description>
+        <description>花草斫半，设定之后。</description>
         <language>zh-CN</language>
         <pubDate>Sat, 23 Mar 2024 10:48:59 +0800</pubDate>
         <lastBuildDate>Sat, 23 Mar 2024 10:48:59 +0800</lastBuildDate>
+        <category term="perfect" />
         <item>
             <guid isPermalink="true">https://tarikko-scetayhchan.top/2024/03/23/%E5%9C%A8macOS%E4%B8%8A%E4%BD%BF%E7%94%A8Git%E5%BF%BD%E7%95%A5-DS-Store%E6%96%87%E4%BB%B6/</guid>
             <title>在macOS上使用Git忽略.DS_Store文件</title>
