@@ -109,7 +109,7 @@
             "url": "https://tarikko-scetayhchan.top/2024/02/16/%E9%98%B2%E6%AD%A2MacBook%E5%90%88%E4%B8%8A%E7%9B%96%E5%AD%90%E5%90%8E%E7%9D%A1%E7%9C%A0/",
             "title": "防止MacBook合上盖子后睡眠",
             "date_published": "2024-02-16T10:15:32.000Z",
-            "content_html": "<p>对 Mac 禁用睡眠，合上 MacBook 的盖子时防止进入睡眠状态：</p>\n<p><figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">% sudo pmset -a disablesleep 1</span><br></pre></td></tr></table></figure></p>\n<p>启用睡眠：</p>\n<p><figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">% sudo pmset -a disablesleep 0</span><br></pre></td></tr></table></figure></p>\n<p>这适用于编译、下载等未进行结束的时候。<s>也适用于家长突袭检查 (雾)。</s></p>\n",
+            "content_html": "<p>对 Mac 禁用睡眠，合上 MacBook 的盖子时防止进入睡眠状态：</p>\n<p><figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">% sudo pmset -a disablesleep 1</span><br></pre></td></tr></table></figure></p>\n<p>启用睡眠：</p>\n<p><figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">% sudo pmset -a disablesleep 0</span><br></pre></td></tr></table></figure></p>\n<p>这适用于编译、下载等未进行结束的时候。!! 也适用于家长突袭检查 (雾)。 !!</p>\n",
             "tags": [
                 "Apple",
                 "苹果",

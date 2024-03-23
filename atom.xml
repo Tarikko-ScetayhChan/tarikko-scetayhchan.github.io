@@ -311,7 +311,7 @@ Enterprises and developers use Algolia&#39;s AI search infrastructure to underst
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;% sudo pmset -a disablesleep 1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;启用睡眠：&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;% sudo pmset -a disablesleep 0&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;这适用于编译、下载等未进行结束的时候。&lt;s&gt;也适用于家长突袭检查 (雾)。&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;这适用于编译、下载等未进行结束的时候。!! 也适用于家长突袭检查 (雾)。 !!&lt;/p&gt;
 </content>
         <category term="Apple" scheme="https://tarikko-scetayhchan.top/tags/Apple/" />
         <category term="苹果" scheme="https://tarikko-scetayhchan.top/tags/%E8%8B%B9%E6%9E%9C/" />
