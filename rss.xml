@@ -83,7 +83,7 @@
 &lt;p&gt;&lt;strong&gt;AI search that understands your users&lt;/strong&gt;&lt;br /&gt;
 Enterprises and developers use Algolia&#39;s AI search infrastructure to understand users and show them what they&#39;re looking for&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Algolia 恰好为 Hexo 用户提供了搜索功能的基础。本文为 Hexo 配置 Algolia 作简要说明。&lt;/p&gt;
+&lt;p&gt;Algolia 恰好为 Hexo 用户提供了搜索功能。本文为 Hexo 配置 Algolia 作简要说明。&lt;/p&gt;
 &lt;h1 id=&#34;注册algolia账户&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注册algolia账户&#34;&gt;#&lt;/a&gt; 注册 Algolia 账户&lt;/h1&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYWxnb2xpYS5jb20vdXNlcnMvc2lnbl9pbg==&#34;&gt;https://www.algolia.com/users/sign_in&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&#34;新建索引&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新建索引&#34;&gt;#&lt;/a&gt; 新建索引&lt;/h1&gt;
@@ -103,7 +103,7 @@ Enterprises and developers use Algolia&#39;s AI search infrastructure to underst
 &lt;li&gt;&lt;code&gt;appId&lt;/code&gt;  - Application ID&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;apiKey&lt;/code&gt;  - Search-Only API Key&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;adminApiKey&lt;/code&gt;  - Admin API Key&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;indexName&lt;/code&gt;  - 新建索引名称&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;indexName&lt;/code&gt;  - 新建索引名称 (我的是 ``)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://sources.tarikko-scetayhchan.top/pictures/quotes/algolia-root-config.jpeg&#34; alt=&#34;编辑根目录_config.yml&#34; title=&#34;编辑根目录_config.yml&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;设置环境变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置环境变量&#34;&gt;#&lt;/a&gt; 设置环境变量&lt;/h1&gt;
@@ -114,10 +114,11 @@ Enterprises and developers use Algolia&#39;s AI search infrastructure to underst
 &lt;h1 id=&#34;搜集数据&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搜集数据&#34;&gt;#&lt;/a&gt; 搜集数据&lt;/h1&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption&gt;&lt;span&gt;搜集数据&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo hexo algolia&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h1 id=&#34;编辑主题目录_configyml&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#编辑主题目录_configyml&#34;&gt;#&lt;/a&gt; 编辑主题目录 &lt;code&gt;_config.yml&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;per_page&lt;/code&gt;  表示每页显示的条数。&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight vim&#34;&gt;&lt;figcaption&gt;&lt;span&gt;_config.yml&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;algolia_search:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  enable: true&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  hits:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    per_page: &lt;span class=&#34;number&#34;&gt;6&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://sources.tarikko-scetayhchan.top/pictures/quotes/algolia-theme-config.jpeg&#34; alt=&#34;编辑主题目录_config.yml&#34; title=&#34;编辑主题目录_config.yml&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;部署hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部署hexo&#34;&gt;#&lt;/a&gt; 部署 Hexo&lt;/h1&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption&gt;&lt;span&gt;部署Hexo&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo hexo clean&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo hexo d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption&gt;&lt;span&gt;部署Hexo&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo hexo algolia&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo hexo clean&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo hexo g&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;sudo hexo d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;建议执行命令 &lt;code&gt;echo &amp;quot;alias b=&#39;cd ~/blog &amp;amp;&amp;amp; sudo hexo algolia &amp;amp;&amp;amp; sudo hexo cl &amp;amp;&amp;amp; sudo hexo g &amp;amp;&amp;amp; sudo hexo d&#39;&amp;quot; &amp;gt;&amp;gt; ~/.bashrc&lt;/code&gt; ，这样只需要键入 &lt;code&gt;b&lt;/code&gt;  即可部署 Hexo。&lt;/p&gt;
 &lt;h1 id=&#34;查看结果&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看结果&#34;&gt;#&lt;/a&gt; 查看结果&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://sources.tarikko-scetayhchan.top/pictures/quotes/algolia.jpeg&#34; alt=&#34;查看结果&#34; title=&#34;查看结果&#34; /&gt;&lt;/p&gt;
